@@ -1,3 +1,5 @@
+//All code until line 160 was provided.
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -153,6 +155,9 @@ void UGraph::removeEdge(int u, int v){
         }//if
     }//for
 }
+
+//All code above was provided to me
+//All code below was written by me to solve the assigned problems
 
 bool UGraph::distinctPaths(int u, int v){
     //this for loop is to account for previous function calls that may have changed the weights.

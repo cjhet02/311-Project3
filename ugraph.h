@@ -36,6 +36,7 @@ class UGraph{
             bool isCycleVisit(int u, int &t);
             void addEdge(int u, int v);
             void removeEdge(int u, int v);
+            //below are the functions I added:
             bool distinctPaths(int u, int v);
             void bfsWeighted(int s);
             void backtrackParents(int u, int v, vector<int>& path);
